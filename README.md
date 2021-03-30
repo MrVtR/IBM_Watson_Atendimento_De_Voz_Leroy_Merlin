@@ -2,7 +2,7 @@
 Código feito para fazer a configuração de atendimento ao cliente para a Leroy Merlin, utilizando dos recursos da IBM Cloud e da Kloe API para a PROA.AI
 
 ## Primeira função: IBM Speech-to-Text + Kloe API - Texto
-Essa função permite receber um áudio no canal dde atendimento do whatsapp da empresa Leroy Merlin, após isso, o áudio é enviado para o servidor S3 da AWS e decodificado para texto com o serviço Speech-to-Text da IBM. 
+Essa função permite receber um áudio no canal de atendimento do whatsapp da empresa Leroy Merlin, após isso, o áudio é enviado para o servidor S3 da AWS e decodificado para texto com o serviço Speech-to-Text da IBM. 
 No final, o programa envia o áudio decodificado em formato json para a Kloe API que enviar o texto no serviço Watson Assistant para tratar as intenções do cliente e ser possível dar continuidade ao atendimento
 
 ## Segunda função: IBM LanguageTranslator + IBM Tone Analyzer
