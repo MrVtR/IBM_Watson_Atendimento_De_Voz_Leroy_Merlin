@@ -239,25 +239,3 @@ main({
   url: 'https://kloe-proa.s3.amazonaws.com/uploads/1616767412695.ogg',
   agent: 0,
 });
-
-//  Translator + Tone Analyzer
-
-// main({
-//   agent: 1,
-//   message: 'Bom dia',
-// });
-
-// Text-to-Speech + Kloe API Voz
-
-// main({
-//   agent: 2,
-//   resp: 'Olá, tudo bem?',
-//   conversationID: '5511947170707',
-// });
-
-//Opção inválida de teste do Default
-
-// main({
-//   url: 'https://kloe-proa.s3.amazonaws.com/uploads/1616767412695.ogg',
-//   agent: 3,
-// });
